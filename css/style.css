@@ -1,8 +1,8 @@
 /********** Template CSS **********/
 :root {
-    --primary: #06BBCC;
+    --primary: #54be90;
     --light: #F0FBFC;
-    --dark: #181d38;
+    --dark:#22564f;
 }
 
 .fw-medium {
@@ -46,7 +46,7 @@
 
 .btn.btn-primary,
 .btn.btn-secondary {
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .btn-square {
@@ -97,7 +97,7 @@
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: #54be90;
 }
 
 @media (max-width: 991.98px) {
@@ -380,6 +380,7 @@
     border: 1px solid #FFFFFF;
     border-radius: 35px;
     transition: .3s;
+    
 }
 
 .footer .btn.btn-social:hover {
@@ -391,7 +392,7 @@
     margin-bottom: 5px;
     padding: 0;
     text-align: left;
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 15px;
     font-weight: normal;
     text-transform: capitalize;
