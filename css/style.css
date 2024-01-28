@@ -437,3 +437,51 @@
     padding-right: 0;
     border-right: none;
 }
+.body {
+    background: linear-gradient(to right, #654ea3, #eaafc8);
+  }
+  .card {
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 50px;
+    background-color: #f8f8f8;
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
+  .card-header {
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .form-group label {
+    font-weight: bold;
+  }
+  .form-control:focus {
+    box-shadow: none;
+  }
+  .btn-login {
+    background-color:#54be90
+    border-color:#54be90
+    transition: all 0.3s ease-in-out;
+  }
+  .btn-login:hover {
+    background-color:#54be90
+    border-color:#54be90
+  }
+  .btn-login:focus {
+    box-shadow: none;
+  }
+  .text-center {
+    margin-top: 20px;
+    font-size: 1.2rem;
+  }
+  @media screen and (max-width: 576px) {
+    .card {
+      margin: 10px;
+      padding: 30px;
+    }
+  }
